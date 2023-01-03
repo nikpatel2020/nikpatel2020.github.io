@@ -1,0 +1,60 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Scotland map",
+    "subtitle":["Gross annual pay by Local Authority Districts Source: ONS",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "middle",
+    "color": "black"},
+
+  "config": {
+      "background":"white",
+      "view": {"stroke": "transparent"}},
+  
+  "width": 300,
+  "height": 300,
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/po_data/w7_topo_Scotland_LocalAuthorityDistrict.json",
+    
+    "format": {"type": "topojson", "feature": "lad"}},
+  "projection": {"type": "mercator"},
+
+  "transform": [{
+    "lookup": "properties.LAD13NM",
+    "from": {
+      "key": "name",
+      "fields": ["avg"],
+      "data": {"url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/po_data/w7_Scotland_AnnualPayGross.csv"}}
+      }],
+  
+  "mark": {
+      "type": "geoshape",
+      
+      "stroke": "white",
+      "strokeWidth":0.1},
+  
+  
+  "encoding": {
+    "color":{
+      "field":"avg",
+      "title": "annual pay (£)",
+      "type": "quantitative",
+      "scale":{"scheme":"lightmulti"},
+      "legend":{
+        "orient": "top-left",
+        "direction": "vertical"
+      }
+    },
+    
+    
+    
+    "tooltip":[
+      {"field": "properties.LAD13NM","title": "LAD"},
+      {"field": "avg","title": "annual pay"}]}
+
+  
+
+      
+}
