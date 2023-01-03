@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": "To 10 PGA golfers by event performace",
+      "subtitle": ["Averge points scored per PGA event 2022, Source: PGA."],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    
+    },
+  "width": 400,
+  "height":400,
+  "data": {"values" : [{"RANK\\u00a0THIS WEEK": "1", "PLAYER NAME": "Rory McIlroy", "AVG POINTS": 8.65}, {"RANK\\u00a0THIS WEEK": "2", "PLAYER NAME": "Scottie Scheffler", "AVG POINTS": 8.41}, {"RANK\\u00a0THIS WEEK": "3", "PLAYER NAME": "Cameron Smith", "AVG POINTS": 7.57}, {"RANK\\u00a0THIS WEEK": "4", "PLAYER NAME": "Patrick Cantlay", "AVG POINTS": 7.26}, {"RANK\\u00a0THIS WEEK": "5", "PLAYER NAME": "Jon Rahm", "AVG POINTS": 6.53}, {"RANK\\u00a0THIS WEEK": "6", "PLAYER NAME": "Xander Schauffele", "AVG POINTS": 6.19}, {"RANK\\u00a0THIS WEEK": "7", "PLAYER NAME": "Will Zalatoris", "AVG POINTS": 5.8}, {"RANK\\u00a0THIS WEEK": "8", "PLAYER NAME": "Justin Thomas", "AVG POINTS": 5.41}, {"RANK\\u00a0THIS WEEK": "9", "PLAYER NAME": "Matt Fitzpatrick", "AVG POINTS": 5.27}, {"RANK\\u00a0THIS WEEK": "10", "PLAYER NAME": "Viktor Hovland", "AVG POINTS": 5.23}]
+  },
+
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "PLAYER NAME",
+      "type": "nominal",
+      "sort": "-x"
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "AVG POINTS",
+      "title": "Average Points"
+    }
+  }
+}
