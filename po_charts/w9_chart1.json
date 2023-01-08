@@ -1,0 +1,100 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/generation_co2_state_source_perc_wideform.csv"
+  },
+  "width": 450,
+  "height": 470,
+  "title": {
+          "text": ["Percentage of electricity generated from renewables vs Co2 emissions per capita", "for US States from 1990 to 2021"],
+          "subtitle": ["Source: EIA"],
+          "subtitleFontStyle": "italic",
+          "subtitleFontSize": 10,
+          "anchor": "start",
+          "color": "#010001",
+          "subtitleColor": "#000000"},
+  "transform": [{"filter": {"selection": "State"}}],
+  "layer": [
+    {"mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Percentage Total Renewable",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "co2 per cap",
+          "type": "quantitative"
+        },
+        "tooltip": {"field": "Year", "type": "nominal"}
+        },
+      "selection": {
+      "State":{
+        "type": "single",
+        "fields": ["State"],
+        "bind": {
+          "name": "State",
+          "input": "select",
+          "options": [null,"AK","CA","DC","KY","DE","IL","IN","VT"]
+          
+      }
+    }
+  
+  }
+
+   
+
+
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "co2 per cap",
+          "on": "Percentage Total Renewable"
+          
+          
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Percentage Total Renewable",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "co2 per cap",
+          "type": "quantitative"
+        }
+        
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "co2 per cap",
+          "on": "Percentage Total Renewable",
+          
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+   
+  ]
+
+  
+}

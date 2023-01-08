@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/corr_state_source_nom.csv"},
+    "width": 400,
+    "height": 400,
+    "title": {
+          "text": ["Correlation between sources of electricity generation for US States from 1990 to 2021"],
+          "subtitle": ["Source: EIA"],
+          "subtitleFontStyle": "italic",
+          "subtitleFontSize": 10,
+          "anchor": "start",
+          "color": "#010001",
+          "subtitleColor": "#000000"},
+    "transform": [{"filter": {"selection": "State"}}],
+    "encoding": {
+      "y": {"field": "SourceX", "type": "ordinal", "axis":{"title":null, "labelFontSize": 15}},
+      "x": {"field": "SourceY", "type": "ordinal", "axis":{"title":null, "labelFontSize": 15}},
+      "tooltip": [{"field": "Correlation", "type": "quantitative","format": ".3f", "title":"Correlation"},{"field": "SourceX", "type": "nominal", "title":"Source1"},{"field": "SourceY", "type": "nominal", "title":"Source2"},{"field": "State", "type": "nominal", "title":"State"}]
+    },
+  
+    "layer": [
+      
+      
+      {
+        "mark": "rect",
+        "encoding": {
+          "color": {
+            "field": "Correlation",
+            "type": "quantitative",
+            "title": "Correlation",
+            "legend": {"direction": "vertical", "gradientLength": 120},
+            "scale": {"type":"linear" ,"range": ["#BB0103","#DB7A7B","#FFFEFE","#8F88D2","#1207A3"]}
+            
+          }
+          
+               
+        }
+      },
+      {
+        "mark": "text",
+         "selection": {
+          "State":{
+          "type": "single",
+          "fields": ["State"],
+          "bind": {
+            "name": "State",
+            "input": "select",
+            "options": [null,"US_TOTAL", "AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]
+            
+        }}}
+      
+      }
+      ],
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }

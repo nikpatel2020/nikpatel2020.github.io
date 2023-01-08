@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": "CPIH and Real Regular Pay UK 2012-2022",
+    "subtitle": ["Source: ONS"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#010001",
+    "subtitleColor": "#000000"
+  },
+  "height": 400,
+  "width": 400,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/po_data/w8_ONS_AWE_CPIH.csv"
+      },
+      "mark": {"type": "line", "point": false},
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "title": null,
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "Percent",
+          "type": "quantitative",
+          "title": "%",
+          "axis": {"labelFontSize": 10, "titleFontSize": 13, "grid": true}
+        },
+        "color": {"field": "Measure"},
+        "tooltip": [
+          {"field": "Date", "type": "temporal", "title": "Date"},
+          {"field": "Percent", "type": "quantitative", "title": "%"},
+          {"field": "Measure", "type": "nominal"}
+        ]
+      }
+    }
+  ]
+}
