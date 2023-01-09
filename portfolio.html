@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio NP DS 2022</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+
+<body>
+   
+    <h1>Nik Patel Data Science 2022</h1>
+    <h2>Portfolio</h2>
+
+
+    <!--week1-->
+    <div class="myWeek1">
+
+        <h2>Week 1: Embedding Charts</h2>
+        <p>The first chart tracks CPI inflation in the UK while the second chart comapres CPI, CPIH and RPI inflation measures in the UK using data from ONS.</p>
+        
+        <div class="chart" id="Chart1">
+        <h3>CPI Inflation</h3>
+        <p>The first chart tracks CPI inflation in the UK using data from ONS.</p>    
+        </div>
+
+        <div class="chart" id="Chart2">
+        <h3>Comparing Inflation Measures</h3>
+        <p>The second chart compares CPI, CPIH and RPI inflation measures in the UK using data from ONS.</p>
+        </div>
+
+    </div>
+
+    <!--week2-->
+    <div class="myWeek2">
+        <h2>Week 2: Replicating and Correcting FT Chart</h2>
+        <p>The first chart replicates that from the Financial times showing IMF lending. The second chart displays IMF lending as a percentage of world GDP. </p>
+        
+        <div class="chart" id="Chart3"></div>
+        
+        <div class="chart" id="Chart4"> </div>
+
+        <p>By adjusting the data it is clear that 1985 is a riskier year than 2022 as lending was at its highest relative to world GDP.</p>
+
+    </div>
+    
+    
+    <!--week3-->
+    <div class="myWeek3">
+        <h2>Week 3: Inline Data Objects and Visual Encodings</h2>
+        
+        <div class="chart" id="Chart5"></div>
+        
+        <div class="chart" id="Chart6"> </div>
+
+        <p>The second visual encoding uses a line graph over a stacked bar allowing for values to be read easily and showing a more intuitive change over time.</p>
+
+    </div>
+
+    <!--week4-->
+    <div class="myWeek4">
+        <h2>Week 4: Data Scraping</h2>
+        
+        <div class="chart" id="Chart7"></div>
+        
+        <p>I chose this site as I have followed golf in the past and it presented good challenge to scrape data from a table.</p>
+        <p>Click <a class="textLink" href="https://colab.research.google.com/drive/1dwAndhIPo9pVHOkOIlcAzq1EIaUujxDL?usp=sharing"> here</a> for the Colab scraper code.</p>
+
+    </div>
+
+    <!--week5-->
+    <div class="myWeek5">
+        <h2>Week 5: API dashboard</h2>
+        
+        <div class="chart" id="Chart8"></div>
+        <div class="chart" id="Chart9"></div>
+        <div class="chart" id="Chart10"></div>
+        <div class="chart" id="Chart11"></div>
+        <div class="chart" id="Chart12"></div>
+        <div class="chart" id="Chart13"></div>
+        <div class="chart" id="Chart14"></div>
+        <div class="chart" id="Chart15"></div>
+        <div class="chart" id="Chart16"></div>
+        
+        <p>I used python to generate api links and coppied these directly into my Vega code.</p>
+        <p>Click <a class="textLink" href="https://colab.research.google.com/drive/14zDz6Rp3aBLYtyQEwyzJcinN755R1Q9M?usp=sharing "> here</a> for the Colab code I used to generate the API urls.</p>
+
+    </div>
+
+    <!--week7-->
+    <div class="myWeek7">
+        <h2>Week 7: Base Map and a Choropleth</h2>
+        
+        <div class="chart" id="Chart17"></div>
+        <div class="chart" id="Chart18"></div>
+        
+        <p>The second map shows the gross annual pay by local district authority in Scotland using a data from the ONS.</p>
+        
+
+    </div>
+
+    <!--week8-->
+    <div class="myWeek8">
+        <h2>Week 8: Festival of Economics, Prices and Wages</h2>
+        <p>Chris Giles states wages are not outpacing than inflation therefore real wages are falling, alongside this there is a great difference in public and private wage growth.</p>
+        <div class="chart" id="Chart19"></div>
+        <div class="chart" id="Chart20"></div>
+        
+        <p>The first chart displays CPIH and its spike resulting in real wage growth dropping. The second chart finds a disparity of 4% in wage growth between the public and private sector. </p>
+        
+
+    </div>
+
+     <!--week9-->
+     <div class="myWeek9">
+        <h2>Week 9: Advanced Charts</h2>
+       
+        <div class="chart" id="Chart21"></div>
+        <div class="chart" id="Chart22"></div>
+        
+        
+
+    </div>
+
+    <!--week10-->
+    <div class="myWeek10">
+        <h2>Week 10: Supervised Learning</h2>
+       
+        <div class="chart" id="Chart23"></div>
+        
+        
+        
+
+    </div>
+
+    <!--week11-->
+    <div class="myWeek11">
+        <h2>Week 11: Unsupervised Learning</h2>
+       
+        <div class="chart" id="Chart24"></di>
+       
+
+    </div>
+
+    
+
+    
+
+
+
+
+</body>
+
+<script>
+    //Define charts:
+    var myChart1 = "po_charts/w1_chart1.json";
+    var myChart2 = "po_charts/w1_chart2.json";
+    var myChart3 = "po_charts/w2_chart1.json";
+    var myChart4 = "po_charts/w2_chart2.json";
+    var myChart5 = "po_charts/w3_chart1.json";
+    var myChart6 = "po_charts/w3_chart2.json";
+    var myChart7 = "po_charts/w4_chart1.json";
+    var myChart8 = "po_charts/w5_chart1.json";
+    var myChart9 = "po_charts/w5_chart2.json";
+    var myChart10 = "po_charts/w5_chart3.json";
+    var myChart11 = "po_charts/w5_chart4.json";
+    var myChart12 = "po_charts/w5_chart5.json";
+    var myChart13 = "po_charts/w5_chart6.json";
+    var myChart14 = "po_charts/w5_chart7.json";
+    var myChart15 = "po_charts/w5_chart8.json";
+    var myChart16 = "po_charts/w5_chart9.json";
+    var myChart17 = "po_charts/w7_chart1.json";
+    var myChart18 = "po_charts/w7_chart2.json";
+    var myChart19 = "po_charts/w8_chart1.json";
+    var myChart20 = "po_charts/w8_chart2.json";
+    var myChart21 = "po_charts/w9_chart1.json";
+    var myChart22 = "po_charts/w9_chart2.json";
+    var myChart23 = "po_charts/w10_chart1.json";
+    var myChart24 = "po_charts/w11_chart1.json";
+   
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
+    vegaEmbed('#Chart24', myChart24);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
