@@ -1,0 +1,494 @@
+﻿State,Total Renewable,Source,Correlation
+AK,Total Renewable,Coal,0.570554352
+AL,Total Renewable,Coal,-0.299077416
+AR,Total Renewable,Coal,-0.415603746
+AZ,Total Renewable,Coal,-0.698568578
+CA,Total Renewable,Coal,-0.689886392
+CO,Total Renewable,Coal,-0.716625709
+CT,Total Renewable,Coal,0.346426765
+DE,Total Renewable,Coal,-0.74561139
+FL,Total Renewable,Coal,-0.718791743
+GA,Total Renewable,Coal,-0.757943346
+HI,Total Renewable,Coal,-0.182832574
+IA,Total Renewable,Coal,-0.521393584
+ID,Total Renewable,Coal,-0.366428085
+IL,Total Renewable,Coal,-0.454966396
+IN,Total Renewable,Coal,-0.874569082
+KS,Total Renewable,Coal,-0.718140929
+KY,Total Renewable,Coal,-0.791037063
+LA,Total Renewable,Coal,0.137870196
+MA,Total Renewable,Coal,-0.37923192
+MD,Total Renewable,Coal,-0.599022729
+ME,Total Renewable,Coal,-0.547198157
+MI,Total Renewable,Coal,-0.940930254
+MN,Total Renewable,Coal,-0.791547162
+MO,Total Renewable,Coal,-0.282815396
+MS,Total Renewable,Coal,-0.541373056
+MT,Total Renewable,Coal,-0.60388622
+NC,Total Renewable,Coal,-0.863297738
+ND,Total Renewable,Coal,-0.573275504
+NE,Total Renewable,Coal,0.22617901
+NH,Total Renewable,Coal,-0.639949736
+NJ,Total Renewable,Coal,-0.733856073
+NM,Total Renewable,Coal,-0.892011827
+NV,Total Renewable,Coal,-0.764928179
+NY,Total Renewable,Coal,-0.733481453
+OH,Total Renewable,Coal,-0.942409811
+OK,Total Renewable,Coal,-0.936305928
+OR,Total Renewable,Coal,-0.575879378
+PA,Total Renewable,Coal,-0.842343241
+SC,Total Renewable,Coal,-0.753820589
+SD,Total Renewable,Coal,-0.583697156
+TN,Total Renewable,Coal,-0.42546211
+TX,Total Renewable,Coal,-0.67430291
+US_TOTAL,Total Renewable,Coal,-0.904932917
+UT,Total Renewable,Coal,-0.822610981
+VA,Total Renewable,Coal,-0.790761648
+WA,Total Renewable,Coal,-0.533462191
+WI,Total Renewable,Coal,-0.583423577
+WV,Total Renewable,Coal,-0.767178516
+WY,Total Renewable,Coal,-0.407931213
+CA,Total Renewable,Geothermal,-0.686629189
+HI,Total Renewable,Geothermal,0.05122665
+ID,Total Renewable,Geothermal,0.466588101
+NM,Total Renewable,Geothermal,0.893897969
+NV,Total Renewable,Geothermal,0.966755079
+OR,Total Renewable,Geothermal,0.333125714
+US_TOTAL,Total Renewable,Geothermal,0.502746747
+UT,Total Renewable,Geothermal,0.751438343
+AK,Total Renewable,Hydro,0.965615742
+AL,Total Renewable,Hydro,0.962906087
+AR,Total Renewable,Hydro,0.981747333
+AZ,Total Renewable,Hydro,0.171218565
+CA,Total Renewable,Hydro,0.342587733
+CO,Total Renewable,Hydro,0.232734168
+CT,Total Renewable,Hydro,0.347722147
+FL,Total Renewable,Hydro,0.24664394
+GA,Total Renewable,Hydro,0.428297969
+HI,Total Renewable,Hydro,0.053153514
+IA,Total Renewable,Hydro,0.113259446
+ID,Total Renewable,Hydro,0.805179776
+IL,Total Renewable,Hydro,-0.170942676
+IN,Total Renewable,Hydro,-0.682757942
+KS,Total Renewable,Hydro,0.835316853
+KY,Total Renewable,Hydro,0.968054434
+LA,Total Renewable,Hydro,0.517269042
+MA,Total Renewable,Hydro,0.226495992
+MD,Total Renewable,Hydro,0.818633588
+ME,Total Renewable,Hydro,0.597693945
+MI,Total Renewable,Hydro,0.070633187
+MN,Total Renewable,Hydro,-0.095152697
+MO,Total Renewable,Hydro,0.401203156
+MT,Total Renewable,Hydro,0.844063085
+NC,Total Renewable,Hydro,0.61093118
+ND,Total Renewable,Hydro,0.501552918
+NE,Total Renewable,Hydro,0.278826513
+NH,Total Renewable,Hydro,0.316827373
+NJ,Total Renewable,Hydro,-0.336372367
+NM,Total Renewable,Hydro,-0.465578388
+NV,Total Renewable,Hydro,-0.057405145
+NY,Total Renewable,Hydro,0.833467787
+OH,Total Renewable,Hydro,0.172609136
+OK,Total Renewable,Hydro,0.060383853
+OR,Total Renewable,Hydro,0.718969696
+PA,Total Renewable,Hydro,0.611719364
+RI,Total Renewable,Hydro,-0.500003412
+SC,Total Renewable,Hydro,0.793174539
+SD,Total Renewable,Hydro,0.694912627
+TN,Total Renewable,Hydro,0.992731772
+TX,Total Renewable,Hydro,-0.273390934
+US_TOTAL,Total Renewable,Hydro,0.075406444
+UT,Total Renewable,Hydro,0.277348295
+VA,Total Renewable,Hydro,0.532615627
+VT,Total Renewable,Hydro,0.653825386
+WA,Total Renewable,Hydro,0.941049112
+WI,Total Renewable,Hydro,0.519541267
+WV,Total Renewable,Hydro,0.868903781
+WY,Total Renewable,Hydro,0.212894918
+AK,Total Renewable,Natural Gas,-0.624962833
+AL,Total Renewable,Natural Gas,0.035288566
+AR,Total Renewable,Natural Gas,0.10155716
+AZ,Total Renewable,Natural Gas,0.371833835
+CA,Total Renewable,Natural Gas,-0.245566828
+CO,Total Renewable,Natural Gas,0.716347013
+CT,Total Renewable,Natural Gas,-0.601968878
+DC,Total Renewable,Natural Gas,0.689269669
+DE,Total Renewable,Natural Gas,0.713390787
+FL,Total Renewable,Natural Gas,0.473040941
+GA,Total Renewable,Natural Gas,0.58731752
+IA,Total Renewable,Natural Gas,0.854479574
+ID,Total Renewable,Natural Gas,0.321151862
+IL,Total Renewable,Natural Gas,0.882436093
+IN,Total Renewable,Natural Gas,0.948413731
+KS,Total Renewable,Natural Gas,0.240064124
+KY,Total Renewable,Natural Gas,0.714521286
+LA,Total Renewable,Natural Gas,0.000448172
+MA,Total Renewable,Natural Gas,-0.442419696
+MD,Total Renewable,Natural Gas,0.680303623
+ME,Total Renewable,Natural Gas,-0.041434049
+MI,Total Renewable,Natural Gas,0.885686681
+MN,Total Renewable,Natural Gas,0.930925425
+MO,Total Renewable,Natural Gas,0.52510351
+MS,Total Renewable,Natural Gas,0.036030115
+MT,Total Renewable,Natural Gas,0.560038579
+NC,Total Renewable,Natural Gas,0.815349106
+ND,Total Renewable,Natural Gas,0.898701326
+NE,Total Renewable,Natural Gas,0.687593483
+NH,Total Renewable,Natural Gas,0.188212182
+NJ,Total Renewable,Natural Gas,0.83163611
+NM,Total Renewable,Natural Gas,0.82336095
+NV,Total Renewable,Natural Gas,0.649047604
+NY,Total Renewable,Natural Gas,0.498563899
+OH,Total Renewable,Natural Gas,0.967700363
+OK,Total Renewable,Natural Gas,0.738508471
+OR,Total Renewable,Natural Gas,-0.016110244
+PA,Total Renewable,Natural Gas,0.876447128
+RI,Total Renewable,Natural Gas,0.499072198
+SC,Total Renewable,Natural Gas,0.538403968
+SD,Total Renewable,Natural Gas,0.731310268
+TN,Total Renewable,Natural Gas,0.292037953
+TX,Total Renewable,Natural Gas,0.798424511
+US_TOTAL,Total Renewable,Natural Gas,0.891295129
+UT,Total Renewable,Natural Gas,0.711555662
+VA,Total Renewable,Natural Gas,0.910342732
+VT,Total Renewable,Natural Gas,-0.430246192
+WA,Total Renewable,Natural Gas,-0.164093046
+WI,Total Renewable,Natural Gas,0.829598707
+WV,Total Renewable,Natural Gas,0.764096856
+WY,Total Renewable,Natural Gas,0.785293477
+AL,Total Renewable,Nuclear,0.048218607
+AR,Total Renewable,Nuclear,0.113566854
+AZ,Total Renewable,Nuclear,0.602874394
+CA,Total Renewable,Nuclear,-0.587242792
+CT,Total Renewable,Nuclear,-0.532039347
+FL,Total Renewable,Nuclear,0.065780512
+GA,Total Renewable,Nuclear,0.152097993
+IA,Total Renewable,Nuclear,-0.192276529
+IL,Total Renewable,Nuclear,0.588439042
+KS,Total Renewable,Nuclear,0.159614579
+LA,Total Renewable,Nuclear,0.237591433
+MA,Total Renewable,Nuclear,-0.656891546
+MD,Total Renewable,Nuclear,0.233070543
+ME,Total Renewable,Nuclear,-0.106855174
+MI,Total Renewable,Nuclear,0.467727233
+MN,Total Renewable,Nuclear,0.482158968
+MO,Total Renewable,Nuclear,-0.544739559
+MS,Total Renewable,Nuclear,-0.325977701
+NC,Total Renewable,Nuclear,0.308637106
+NE,Total Renewable,Nuclear,-0.455967323
+NH,Total Renewable,Nuclear,0.166536736
+NJ,Total Renewable,Nuclear,0.141150287
+NY,Total Renewable,Nuclear,0.100515094
+OH,Total Renewable,Nuclear,0.574179497
+OR,Total Renewable,Nuclear,-0.070588914
+PA,Total Renewable,Nuclear,0.725774606
+SC,Total Renewable,Nuclear,0.121270428
+TN,Total Renewable,Nuclear,0.04967266
+TX,Total Renewable,Nuclear,0.417232395
+US_TOTAL,Total Renewable,Nuclear,0.446235998
+VA,Total Renewable,Nuclear,0.620137433
+VT,Total Renewable,Nuclear,-0.517674217
+WA,Total Renewable,Nuclear,-0.205293843
+WI,Total Renewable,Nuclear,-0.232456993
+AK,Total Renewable,Other Biomass,0.78599865
+AL,Total Renewable,Other Biomass,0.062735585
+AR,Total Renewable,Other Biomass,0.037960477
+AZ,Total Renewable,Other Biomass,0.034859238
+CA,Total Renewable,Other Biomass,0.41363521
+CO,Total Renewable,Other Biomass,0.838799832
+CT,Total Renewable,Other Biomass,0.951419766
+DC,Total Renewable,Other Biomass,0.991622428
+DE,Total Renewable,Other Biomass,0.934677759
+FL,Total Renewable,Other Biomass,-0.00456065
+GA,Total Renewable,Other Biomass,0.593293013
+HI,Total Renewable,Other Biomass,-0.096691594
+IA,Total Renewable,Other Biomass,0.775448046
+ID,Total Renewable,Other Biomass,0.416807268
+IL,Total Renewable,Other Biomass,-0.153108998
+IN,Total Renewable,Other Biomass,0.913378921
+KS,Total Renewable,Other Biomass,0.83519076
+KY,Total Renewable,Other Biomass,0.252410285
+LA,Total Renewable,Other Biomass,0.225498835
+MA,Total Renewable,Other Biomass,0.255085631
+MD,Total Renewable,Other Biomass,-0.081349062
+ME,Total Renewable,Other Biomass,-0.439500811
+MI,Total Renewable,Other Biomass,0.576146756
+MN,Total Renewable,Other Biomass,-0.058771137
+MO,Total Renewable,Other Biomass,0.508550475
+MS,Total Renewable,Other Biomass,0.010124668
+MT,Total Renewable,Other Biomass,0.285837309
+NC,Total Renewable,Other Biomass,0.762671199
+ND,Total Renewable,Other Biomass,-0.289641302
+NE,Total Renewable,Other Biomass,0.700920257
+NH,Total Renewable,Other Biomass,-0.350441836
+NJ,Total Renewable,Other Biomass,0.236465842
+NM,Total Renewable,Other Biomass,0.57575127
+NV,Total Renewable,Other Biomass,0.954385143
+NY,Total Renewable,Other Biomass,0.10412348
+OH,Total Renewable,Other Biomass,0.762074603
+OK,Total Renewable,Other Biomass,0.528605607
+OR,Total Renewable,Other Biomass,0.416316454
+PA,Total Renewable,Other Biomass,0.541414956
+RI,Total Renewable,Other Biomass,0.800747547
+SC,Total Renewable,Other Biomass,0.26183781
+SD,Total Renewable,Other Biomass,0.0144909
+TN,Total Renewable,Other Biomass,0.382138659
+TX,Total Renewable,Other Biomass,0.540343012
+US_TOTAL,Total Renewable,Other Biomass,0.365748238
+UT,Total Renewable,Other Biomass,0.775369773
+VA,Total Renewable,Other Biomass,0.666175257
+VT,Total Renewable,Other Biomass,0.696540269
+WA,Total Renewable,Other Biomass,0.112233537
+WI,Total Renewable,Other Biomass,0.717856622
+WV,Total Renewable,Other Biomass,0.123086906
+AK,Total Renewable,Other Gases,0.035565357
+AL,Total Renewable,Other Gases,-0.147279907
+AR,Total Renewable,Other Gases,-0.03155463
+CA,Total Renewable,Other Gases,-0.190216643
+CO,Total Renewable,Other Gases,0.426674314
+CT,Total Renewable,Other Gases,0.211801006
+DE,Total Renewable,Other Gases,0.003575108
+FL,Total Renewable,Other Gases,-0.085387987
+GA,Total Renewable,Other Gases,-0.00036285
+HI,Total Renewable,Other Gases,-0.180580754
+IL,Total Renewable,Other Gases,-0.190957438
+IN,Total Renewable,Other Gases,-0.233765784
+KY,Total Renewable,Other Gases,-0.390008709
+LA,Total Renewable,Other Gases,0.398771717
+MA,Total Renewable,Other Gases,0.012532811
+MD,Total Renewable,Other Gases,-0.495666757
+ME,Total Renewable,Other Gases,-0.353813858
+MI,Total Renewable,Other Gases,0.891944059
+MN,Total Renewable,Other Gases,-0.028096595
+MO,Total Renewable,Other Gases,-0.210397069
+MS,Total Renewable,Other Gases,-0.538768705
+MT,Total Renewable,Other Gases,0.16619492
+NC,Total Renewable,Other Gases,-0.250863517
+ND,Total Renewable,Other Gases,-0.10055264
+NE,Total Renewable,Other Gases,-0.198613741
+NJ,Total Renewable,Other Gases,0.259662869
+NV,Total Renewable,Other Gases,-0.246317243
+NY,Total Renewable,Other Gases,-0.26933935
+OH,Total Renewable,Other Gases,0.860029256
+OK,Total Renewable,Other Gases,-0.617434018
+PA,Total Renewable,Other Gases,-0.532256268
+RI,Total Renewable,Other Gases,-0.110351171
+SC,Total Renewable,Other Gases,-0.133165916
+TN,Total Renewable,Other Gases,-0.291450576
+TX,Total Renewable,Other Gases,-0.563655102
+US_TOTAL,Total Renewable,Other Gases,-0.127629758
+UT,Total Renewable,Other Gases,-0.331378906
+VA,Total Renewable,Other Gases,-0.017153491
+VT,Total Renewable,Other Gases,-0.051522605
+WA,Total Renewable,Other Gases,0.273988863
+WI,Total Renewable,Other Gases,0.087593647
+WV,Total Renewable,Other Gases,-0.737169163
+WY,Total Renewable,Other Gases,0.803700736
+AK,Total Renewable,Petroleum,0.187846037
+AL,Total Renewable,Petroleum,-0.022045825
+AR,Total Renewable,Petroleum,-0.205168231
+AZ,Total Renewable,Petroleum,-0.27578065
+CA,Total Renewable,Petroleum,-0.551812899
+CO,Total Renewable,Petroleum,-0.497281556
+CT,Total Renewable,Petroleum,0.760791779
+DC,Total Renewable,Petroleum,-0.538700002
+DE,Total Renewable,Petroleum,-0.844412099
+FL,Total Renewable,Petroleum,-0.390261745
+GA,Total Renewable,Petroleum,-0.459359502
+HI,Total Renewable,Petroleum,-0.923718618
+IA,Total Renewable,Petroleum,0.268636306
+ID,Total Renewable,Petroleum,0.128735084
+IL,Total Renewable,Petroleum,-0.645587508
+IN,Total Renewable,Petroleum,-0.062108618
+KS,Total Renewable,Petroleum,-0.332967642
+KY,Total Renewable,Petroleum,-0.226965978
+LA,Total Renewable,Petroleum,0.417007753
+MA,Total Renewable,Petroleum,0.008299967
+MD,Total Renewable,Petroleum,-0.446150891
+ME,Total Renewable,Petroleum,-0.55091354
+MI,Total Renewable,Petroleum,0.330108389
+MN,Total Renewable,Petroleum,-0.874698155
+MO,Total Renewable,Petroleum,-0.073976552
+MS,Total Renewable,Petroleum,-0.060305018
+MT,Total Renewable,Petroleum,0.304891933
+NC,Total Renewable,Petroleum,-0.43245148
+ND,Total Renewable,Petroleum,-0.506302696
+NE,Total Renewable,Petroleum,-0.132645773
+NH,Total Renewable,Petroleum,-0.350354895
+NJ,Total Renewable,Petroleum,-0.573128578
+NM,Total Renewable,Petroleum,0.254837259
+NV,Total Renewable,Petroleum,-0.297455586
+NY,Total Renewable,Petroleum,-0.608846368
+OH,Total Renewable,Petroleum,0.477510225
+OK,Total Renewable,Petroleum,-0.420962774
+OR,Total Renewable,Petroleum,-0.531136389
+PA,Total Renewable,Petroleum,-0.784426323
+RI,Total Renewable,Petroleum,-0.420999386
+SC,Total Renewable,Petroleum,-0.24762832
+SD,Total Renewable,Petroleum,-0.194949999
+TN,Total Renewable,Petroleum,-0.196412454
+TX,Total Renewable,Petroleum,-0.835711423
+US_TOTAL,Total Renewable,Petroleum,-0.790222041
+UT,Total Renewable,Petroleum,-0.207781814
+VA,Total Renewable,Petroleum,-0.476937042
+VT,Total Renewable,Petroleum,-0.268064997
+WA,Total Renewable,Petroleum,-0.100656673
+WI,Total Renewable,Petroleum,-0.560125667
+WV,Total Renewable,Petroleum,-0.772517011
+WY,Total Renewable,Petroleum,-0.095303654
+AR,Total Renewable,Pumped Storage,0.313540972
+AZ,Total Renewable,Pumped Storage,-0.376541773
+CA,Total Renewable,Pumped Storage,-0.025610316
+CO,Total Renewable,Pumped Storage,-0.463822911
+CT,Total Renewable,Pumped Storage,-0.239530168
+GA,Total Renewable,Pumped Storage,-0.084341722
+MA,Total Renewable,Pumped Storage,0.202019657
+MI,Total Renewable,Pumped Storage,0.567380467
+MO,Total Renewable,Pumped Storage,0.176352103
+NC,Total Renewable,Pumped Storage,-0.257361276
+NJ,Total Renewable,Pumped Storage,0.3359019
+NY,Total Renewable,Pumped Storage,0.57429195
+OK,Total Renewable,Pumped Storage,0.045129638
+PA,Total Renewable,Pumped Storage,0.39865845
+SC,Total Renewable,Pumped Storage,0.457896098
+TN,Total Renewable,Pumped Storage,0.269806756
+US_TOTAL,Total Renewable,Pumped Storage,0.064311832
+UT,Total Renewable,Pumped Storage,-0.11392991
+VA,Total Renewable,Pumped Storage,0.109110854
+WA,Total Renewable,Pumped Storage,0.140070854
+WI,Total Renewable,Pumped Storage,-0.152651146
+AL,Total Renewable,Solar,0.413288759
+AR,Total Renewable,Solar,0.282241575
+AZ,Total Renewable,Solar,0.834252619
+CA,Total Renewable,Solar,0.773551759
+CO,Total Renewable,Solar,0.921980643
+CT,Total Renewable,Solar,-0.131503453
+DC,Total Renewable,Solar,0.734972784
+DE,Total Renewable,Solar,0.686247006
+FL,Total Renewable,Solar,0.950052678
+GA,Total Renewable,Solar,0.895926092
+HI,Total Renewable,Solar,0.720024518
+IA,Total Renewable,Solar,0.565184569
+ID,Total Renewable,Solar,0.423294003
+IL,Total Renewable,Solar,0.686681357
+IN,Total Renewable,Solar,0.892948926
+KS,Total Renewable,Solar,0.733585672
+KY,Total Renewable,Solar,0.729245308
+LA,Total Renewable,Solar,-0.197836912
+MA,Total Renewable,Solar,0.665171401
+MD,Total Renewable,Solar,0.666549154
+ME,Total Renewable,Solar,-0.125670679
+MI,Total Renewable,Solar,0.733222683
+MN,Total Renewable,Solar,0.697713959
+MO,Total Renewable,Solar,0.87390484
+MS,Total Renewable,Solar,0.361136429
+MT,Total Renewable,Solar,0.424731388
+NC,Total Renewable,Solar,0.940754917
+NE,Total Renewable,Solar,0.916644567
+NH,Total Renewable,Solar,-0.113357682
+NJ,Total Renewable,Solar,0.894592598
+NM,Total Renewable,Solar,0.966481389
+NV,Total Renewable,Solar,0.973049868
+NY,Total Renewable,Solar,0.648249206
+OH,Total Renewable,Solar,0.790744229
+OK,Total Renewable,Solar,0.898944492
+OR,Total Renewable,Solar,0.13575485
+PA,Total Renewable,Solar,0.753259339
+RI,Total Renewable,Solar,0.853412838
+SC,Total Renewable,Solar,0.68937029
+SD,Total Renewable,Solar,0.700973569
+TN,Total Renewable,Solar,0.387771738
+TX,Total Renewable,Solar,0.812791872
+US_TOTAL,Total Renewable,Solar,0.930138513
+UT,Total Renewable,Solar,0.946041471
+VA,Total Renewable,Solar,0.80925837
+VT,Total Renewable,Solar,0.677950848
+WA,Total Renewable,Solar,-0.045840498
+WI,Total Renewable,Solar,0.328366496
+WY,Total Renewable,Solar,0.596510665
+AK,Total Renewable,Wind,0.803973281
+AZ,Total Renewable,Wind,0.755044799
+CA,Total Renewable,Wind,0.635466337
+CO,Total Renewable,Wind,0.997982653
+CT,Total Renewable,Wind,-0.217641247
+DE,Total Renewable,Wind,0.808108165
+HI,Total Renewable,Wind,0.821634369
+IA,Total Renewable,Wind,0.999962184
+ID,Total Renewable,Wind,0.521060533
+IL,Total Renewable,Wind,0.999459833
+IN,Total Renewable,Wind,0.999468266
+KS,Total Renewable,Wind,0.999998422
+MA,Total Renewable,Wind,0.412783024
+MD,Total Renewable,Wind,0.654080626
+ME,Total Renewable,Wind,0.361747425
+MI,Total Renewable,Wind,0.993833934
+MN,Total Renewable,Wind,0.997186301
+MO,Total Renewable,Wind,0.92671612
+MT,Total Renewable,Wind,0.568818703
+NC,Total Renewable,Wind,0.904746547
+ND,Total Renewable,Wind,0.993690447
+NE,Total Renewable,Wind,0.992343457
+NH,Total Renewable,Wind,0.601033289
+NJ,Total Renewable,Wind,0.600351902
+NM,Total Renewable,Wind,0.998548245
+NV,Total Renewable,Wind,0.920190872
+NY,Total Renewable,Wind,0.752141236
+OH,Total Renewable,Wind,0.982849344
+OK,Total Renewable,Wind,0.997167398
+OR,Total Renewable,Wind,0.387436952
+PA,Total Renewable,Wind,0.957170187
+RI,Total Renewable,Wind,0.926953416
+SD,Total Renewable,Wind,0.841060997
+TN,Total Renewable,Wind,-0.116383314
+TX,Total Renewable,Wind,0.998122481
+US_TOTAL,Total Renewable,Wind,0.972947874
+UT,Total Renewable,Wind,0.864004499
+VA,Total Renewable,Wind,0.561824597
+VT,Total Renewable,Wind,0.770366789
+WA,Total Renewable,Wind,0.258935761
+WI,Total Renewable,Wind,0.948642558
+WV,Total Renewable,Wind,0.985487988
+WY,Total Renewable,Wind,0.995832288
+AK,Total Renewable,Wood Fuels,-0.342821379
+AL,Total Renewable,Wood Fuels,0.053163143
+AR,Total Renewable,Wood Fuels,-0.314598451
+AZ,Total Renewable,Wood Fuels,0.546849397
+CA,Total Renewable,Wood Fuels,-0.700214327
+CO,Total Renewable,Wood Fuels,0.883320337
+CT,Total Renewable,Wood Fuels,-0.278110111
+FL,Total Renewable,Wood Fuels,0.228822951
+GA,Total Renewable,Wood Fuels,0.808282657
+HI,Total Renewable,Wood Fuels,-0.02056038
+IA,Total Renewable,Wood Fuels,0.584147319
+ID,Total Renewable,Wood Fuels,-0.579912689
+IL,Total Renewable,Wood Fuels,-0.158436351
+KY,Total Renewable,Wood Fuels,0.24299891
+LA,Total Renewable,Wood Fuels,0.705552816
+MA,Total Renewable,Wood Fuels,-0.092437713
+MD,Total Renewable,Wood Fuels,-0.273452127
+ME,Total Renewable,Wood Fuels,0.076909312
+MI,Total Renewable,Wood Fuels,-0.3271583
+MN,Total Renewable,Wood Fuels,0.871289583
+MO,Total Renewable,Wood Fuels,0.687974673
+MS,Total Renewable,Wood Fuels,0.825414535
+MT,Total Renewable,Wood Fuels,-0.631955433
+NC,Total Renewable,Wood Fuels,0.186911333
+NH,Total Renewable,Wood Fuels,0.844462364
+NJ,Total Renewable,Wood Fuels,-0.38651534
+NV,Total Renewable,Wood Fuels,-0.063529509
+NY,Total Renewable,Wood Fuels,0.163401976
+OH,Total Renewable,Wood Fuels,-0.505987496
+OK,Total Renewable,Wood Fuels,0.060279285
+OR,Total Renewable,Wood Fuels,-0.190563636
+PA,Total Renewable,Wood Fuels,-0.710905768
+SC,Total Renewable,Wood Fuels,0.469867957
+SD,Total Renewable,Wood Fuels,0.612547723
+TN,Total Renewable,Wood Fuels,-0.230966467
+TX,Total Renewable,Wood Fuels,-0.3755975
+US_TOTAL,Total Renewable,Wood Fuels,0.37391295
+VA,Total Renewable,Wood Fuels,0.836467494
+VT,Total Renewable,Wood Fuels,0.625205577
+WA,Total Renewable,Wood Fuels,0.112617708
+WI,Total Renewable,Wood Fuels,0.441631451
+WV,Total Renewable,Wood Fuels,-0.217961603
+WY,Total Renewable,Wood Fuels,-0.28577931
