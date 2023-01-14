@@ -1,0 +1,168 @@
+Year,Entity,LCOE,LCOE($/kWh)
+2010,World,Bioenergy,0.07818927
+2011,World,Bioenergy,0.056684334
+2012,World,Bioenergy,0.06187914
+2013,World,Bioenergy,0.08219819
+2014,World,Bioenergy,0.08237512
+2015,World,Bioenergy,0.07277113
+2016,World,Bioenergy,0.071178205
+2017,World,Bioenergy,0.07107003
+2018,World,Bioenergy,0.055360332
+2019,World,Bioenergy,0.06393309
+2020,World,Bioenergy,0.07247308
+2021,World,Bioenergy,0.067342535
+2010,World,Concentrated Solar,0.3580038
+2011,World,Concentrated Solar,0.34665465
+2012,World,Concentrated Solar,0.3375742
+2013,World,Concentrated Solar,0.24888833
+2014,World,Concentrated Solar,0.21637706
+2015,World,Concentrated Solar,0.223889
+2016,World,Concentrated Solar,0.24726917
+2017,World,Concentrated Solar,0.20621318
+2018,World,Concentrated Solar,0.14910279
+2019,World,Concentrated Solar,0.21183106
+2020,World,Concentrated Solar,0.10665299
+2021,World,Concentrated Solar,0.11424175
+2007,World,Geothermal,0.05007819
+2008,World,Geothermal,0.055424795
+2009,World,Geothermal,0.09531676
+2010,World,Geothermal,0.05044529
+2012,World,Geothermal,0.08569454
+2013,World,Geothermal,0.06411118
+2014,World,Geothermal,0.06533503
+2015,World,Geothermal,0.05884901
+2016,World,Geothermal,0.06780182
+2017,World,Geothermal,0.07091718
+2018,World,Geothermal,0.06758344
+2019,World,Geothermal,0.067305215
+2020,World,Geothermal,0.054264043
+2021,World,Geothermal,0.06761599
+2010,World,Hydropower,0.038882706
+2011,World,Hydropower,0.03656066
+2012,World,Hydropower,0.038037654
+2013,World,Hydropower,0.042512473
+2014,World,Hydropower,0.042456634
+2015,World,Hydropower,0.036572017
+2016,World,Hydropower,0.04838911
+2017,World,Hydropower,0.05072171
+2018,World,Hydropower,0.039836742
+2019,World,Hydropower,0.041408572
+2020,World,Hydropower,0.045965873
+2021,World,Hydropower,0.04829987
+2000,World,Offshore Wind,0.1707826
+2001,World,Offshore Wind,0.16112547
+2002,World,Offshore Wind,0.13536467
+2003,World,Offshore Wind,0.12575519
+2004,World,Offshore Wind,0.17802335
+2005,World,Offshore Wind,0.15135488
+2006,World,Offshore Wind,0.14865257
+2007,World,Offshore Wind,0.21350704
+2008,World,Offshore Wind,0.21072298
+2009,World,Offshore Wind,0.19494483
+2010,World,Offshore Wind,0.18785676
+2011,World,Offshore Wind,0.19754878
+2012,World,Offshore Wind,0.16660058
+2013,World,Offshore Wind,0.16666164
+2014,World,Offshore Wind,0.17219925
+2015,World,Offshore Wind,0.14052741
+2016,World,Offshore Wind,0.11632308
+2017,World,Offshore Wind,0.10615218
+2018,World,Offshore Wind,0.10004871
+2019,World,Offshore Wind,0.08638764
+2020,World,Offshore Wind,0.08626575
+2021,World,Offshore Wind,0.07516697
+1984,United States,US Wind,0.32380807
+1985,United States,US Wind,0.3044088
+1986,United States,US Wind,0.27523696
+1987,United States,US Wind,0.2694026
+1988,United States,US Wind,0.21000881
+1989,United States,US Wind,0.19602023
+1990,United States,US Wind,0.2162832
+1991,United States,US Wind,0.20989212
+1998,United States,US Wind,0.120570146
+1999,United States,US Wind,0.11613337
+2000,United States,US Wind,0.10138847
+2001,United States,US Wind,0.09534082
+2002,United States,US Wind,0.09022507
+2003,United States,US Wind,0.080114976
+2004,United States,US Wind,0.08824527
+2005,United States,US Wind,0.0780249
+2006,United States,US Wind,0.08819039
+2007,United States,US Wind,0.08683384
+2008,United States,US Wind,0.09884649
+2009,United States,US Wind,0.1102728
+2010,United States,US Wind,0.10264576
+2011,United States,US Wind,0.10847992
+2012,United States,US Wind,0.09205702
+2013,United States,US Wind,0.07594883
+2014,United States,US Wind,0.06268506
+2015,United States,US Wind,0.056870524
+2016,United States,US Wind,0.052276865
+2017,United States,US Wind,0.045964383
+2018,United States,US Wind,0.042361673
+2019,United States,US Wind,0.038209517
+2020,United States,US Wind,0.034139894
+2021,United States,US Wind,0.02961255
+1983,World,Onshore Wind,0.32785082
+1984,World,Onshore Wind,0.32007387
+1985,World,Onshore Wind,0.2972214
+1986,World,Onshore Wind,0.2641942
+1987,World,Onshore Wind,0.2564197
+1988,World,Onshore Wind,0.21215738
+1989,World,Onshore Wind,0.19643468
+1990,World,Onshore Wind,0.2086876
+1991,World,Onshore Wind,0.20031708
+1992,World,Onshore Wind,0.20065267
+1993,World,Onshore Wind,0.21116926
+1994,World,Onshore Wind,0.1982574
+1995,World,Onshore Wind,0.20773248
+1996,World,Onshore Wind,0.18573205
+1997,World,Onshore Wind,0.16313075
+1998,World,Onshore Wind,0.15288077
+1999,World,Onshore Wind,0.15087588
+2000,World,Onshore Wind,0.16236141
+2001,World,Onshore Wind,0.14201893
+2002,World,Onshore Wind,0.13127674
+2003,World,Onshore Wind,0.11504814
+2004,World,Onshore Wind,0.116608016
+2005,World,Onshore Wind,0.10943693
+2006,World,Onshore Wind,0.11239332
+2007,World,Onshore Wind,0.10228007
+2008,World,Onshore Wind,0.10760544
+2009,World,Onshore Wind,0.1053068
+2010,World,Onshore Wind,0.102061465
+2011,World,Onshore Wind,0.09648669
+2012,World,Onshore Wind,0.08839028
+2013,World,Onshore Wind,0.08920628
+2014,World,Onshore Wind,0.080203146
+2015,World,Onshore Wind,0.068961546
+2016,World,Onshore Wind,0.06385536
+2017,World,Onshore Wind,0.05995916
+2018,World,Onshore Wind,0.05087996
+2019,World,Onshore Wind,0.044592004
+2020,World,Onshore Wind,0.03713682
+2021,World,Onshore Wind,0.033123367
+2010,United States,US Solar,0.22071867
+2011,United States,US Solar,0.2627196
+2012,United States,US Solar,0.22718425
+2013,United States,US Solar,0.22637878
+2014,United States,US Solar,0.15501648
+2015,United States,US Solar,0.14340648
+2016,United States,US Solar,0.13033208
+2017,United States,US Solar,0.09481538
+2018,United States,US Solar,0.07368063
+2019,United States,US Solar,0.062099442
+2020,United States,US Solar,0.060060732
+2021,United States,US Solar,0.055293158
+2010,World,Solar,0.41714868
+2011,World,Solar,0.31129825
+2012,World,Solar,0.23263325
+2013,World,Solar,0.1794014
+2014,World,Solar,0.16125813
+2015,World,Solar,0.12107989
+2016,World,Solar,0.106340416
+2017,World,Solar,0.083659746
+2018,World,Solar,0.07113868
+2019,World,Solar,0.062119152
+2020,World,Solar,0.055443965
+2021,World,Solar,0.04834554
