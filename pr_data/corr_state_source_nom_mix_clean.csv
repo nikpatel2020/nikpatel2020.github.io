@@ -1,0 +1,388 @@
+Name,State,Total Renewable,Source,Correlation
+Alaska,AK,Total Renewable,Biomass,-0.056240192
+Alabama,AL,Total Renewable,Biomass,0.055079201
+Arkansas,AR,Total Renewable,Biomass,-0.322343433
+Arizona,AZ,Total Renewable,Biomass,0.52150897
+California,CA,Total Renewable,Biomass,-0.401848729
+Colorado,CO,Total Renewable,Biomass,0.943439609
+Connecticut,CT,Total Renewable,Biomass,0.976758185
+District of Columbia,DC,Total Renewable,Biomass,0.991622428
+Delaware,DE,Total Renewable,Biomass,0.934677759
+Florida,FL,Total Renewable,Biomass,0.078294775
+Georgia,GA,Total Renewable,Biomass,0.813676555
+Hawaii,HI,Total Renewable,Biomass,-0.096663733
+Iowa,IA,Total Renewable,Biomass,0.785403783
+Idaho,ID,Total Renewable,Biomass,-0.131586218
+Illinois,IL,Total Renewable,Biomass,-0.158380095
+Indiana,IN,Total Renewable,Biomass,0.913378921
+Kansas,KS,Total Renewable,Biomass,0.83519076
+Kentucky,KY,Total Renewable,Biomass,0.254112206
+Louisiana,LA,Total Renewable,Biomass,0.708321785
+Massachusetts,MA,Total Renewable,Biomass,0.247174762
+Maryland,MD,Total Renewable,Biomass,-0.195352645
+Maine,ME,Total Renewable,Biomass,-0.052053857
+Michigan,MI,Total Renewable,Biomass,0.159691741
+Minnesota,MN,Total Renewable,Biomass,0.673007041
+Missouri,MO,Total Renewable,Biomass,0.62416792
+Mississippi,MS,Total Renewable,Biomass,0.83397593
+Montana,MT,Total Renewable,Biomass,-0.620525766
+North Carolina,NC,Total Renewable,Biomass,0.532525252
+North Dakota,ND,Total Renewable,Biomass,-0.289641302
+Nebraska,NE,Total Renewable,Biomass,0.700920257
+New Hampshire,NH,Total Renewable,Biomass,0.835159206
+New Jersey,NJ,Total Renewable,Biomass,0.235750978
+New Mexico,NM,Total Renewable,Biomass,0.57575127
+Nevada,NV,Total Renewable,Biomass,0.954669312
+New York,NY,Total Renewable,Biomass,0.13196965
+Ohio,OH,Total Renewable,Biomass,0.569195968
+Oklahoma,OK,Total Renewable,Biomass,0.580852955
+Oregon,OR,Total Renewable,Biomass,0.130750391
+Pennsylvania,PA,Total Renewable,Biomass,0.290050948
+Rhode Island,RI,Total Renewable,Biomass,0.800747547
+South Carolina,SC,Total Renewable,Biomass,0.448559351
+South Dakota,SD,Total Renewable,Biomass,0.570930938
+Tennessee,TN,Total Renewable,Biomass,-0.182775159
+Texas,TX,Total Renewable,Biomass,0.262681971
+US_TOTAL,US_TOTAL,Total Renewable,Biomass,0.430863201
+Utah,UT,Total Renewable,Biomass,0.775369773
+Virginia,VA,Total Renewable,Biomass,0.847390344
+Vermont,VT,Total Renewable,Biomass,0.712883032
+Washington,WA,Total Renewable,Biomass,0.123427545
+Wisconsin,WI,Total Renewable,Biomass,0.686445347
+West Virginia,WV,Total Renewable,Biomass,0.105823863
+Wyoming,WY,Total Renewable,Biomass,-0.28577931
+Alaska,AK,Total Renewable,Coal,0.570554352
+Alabama,AL,Total Renewable,Coal,-0.299077416
+Arkansas,AR,Total Renewable,Coal,-0.415603746
+Arizona,AZ,Total Renewable,Coal,-0.698568578
+California,CA,Total Renewable,Coal,-0.689886392
+Colorado,CO,Total Renewable,Coal,-0.716625709
+Connecticut,CT,Total Renewable,Coal,0.346426765
+Delaware,DE,Total Renewable,Coal,-0.74561139
+Florida,FL,Total Renewable,Coal,-0.718791743
+Georgia,GA,Total Renewable,Coal,-0.757943346
+Hawaii,HI,Total Renewable,Coal,-0.182832574
+Iowa,IA,Total Renewable,Coal,-0.521393584
+Idaho,ID,Total Renewable,Coal,-0.366428085
+Illinois,IL,Total Renewable,Coal,-0.454966396
+Indiana,IN,Total Renewable,Coal,-0.874569082
+Kansas,KS,Total Renewable,Coal,-0.718140929
+Kentucky,KY,Total Renewable,Coal,-0.791037063
+Louisiana,LA,Total Renewable,Coal,0.137870196
+Massachusetts,MA,Total Renewable,Coal,-0.37923192
+Maryland,MD,Total Renewable,Coal,-0.599022729
+Maine,ME,Total Renewable,Coal,-0.547198157
+Michigan,MI,Total Renewable,Coal,-0.940930254
+Minnesota,MN,Total Renewable,Coal,-0.791547162
+Missouri,MO,Total Renewable,Coal,-0.282815396
+Mississippi,MS,Total Renewable,Coal,-0.541373056
+Montana,MT,Total Renewable,Coal,-0.60388622
+North Carolina,NC,Total Renewable,Coal,-0.863297738
+North Dakota,ND,Total Renewable,Coal,-0.573275504
+Nebraska,NE,Total Renewable,Coal,0.22617901
+New Hampshire,NH,Total Renewable,Coal,-0.639949736
+New Jersey,NJ,Total Renewable,Coal,-0.733856073
+New Mexico,NM,Total Renewable,Coal,-0.892011827
+Nevada,NV,Total Renewable,Coal,-0.764928179
+New York,NY,Total Renewable,Coal,-0.733481453
+Ohio,OH,Total Renewable,Coal,-0.942409811
+Oklahoma,OK,Total Renewable,Coal,-0.936305928
+Oregon,OR,Total Renewable,Coal,-0.575879378
+Pennsylvania,PA,Total Renewable,Coal,-0.842343241
+South Carolina,SC,Total Renewable,Coal,-0.753820589
+South Dakota,SD,Total Renewable,Coal,-0.583697156
+Tennessee,TN,Total Renewable,Coal,-0.42546211
+Texas,TX,Total Renewable,Coal,-0.67430291
+US_TOTAL,US_TOTAL,Total Renewable,Coal,-0.904932917
+Utah,UT,Total Renewable,Coal,-0.822610981
+Virginia,VA,Total Renewable,Coal,-0.790761648
+Washington,WA,Total Renewable,Coal,-0.533462191
+Wisconsin,WI,Total Renewable,Coal,-0.583423577
+West Virginia,WV,Total Renewable,Coal,-0.767178516
+Wyoming,WY,Total Renewable,Coal,-0.407931213
+California,CA,Total Renewable,Geothermal,-0.686629189
+Hawaii,HI,Total Renewable,Geothermal,0.05122665
+Idaho,ID,Total Renewable,Geothermal,0.466588101
+New Mexico,NM,Total Renewable,Geothermal,0.893897969
+Nevada,NV,Total Renewable,Geothermal,0.966755079
+Oregon,OR,Total Renewable,Geothermal,0.333125714
+US_TOTAL,US_TOTAL,Total Renewable,Geothermal,0.502746747
+Utah,UT,Total Renewable,Geothermal,0.751438343
+Alaska,AK,Total Renewable,Hydro,0.965615742
+Alabama,AL,Total Renewable,Hydro,0.962906087
+Arkansas,AR,Total Renewable,Hydro,0.981747333
+Arizona,AZ,Total Renewable,Hydro,0.171218565
+California,CA,Total Renewable,Hydro,0.342587733
+Colorado,CO,Total Renewable,Hydro,0.232734168
+Connecticut,CT,Total Renewable,Hydro,0.347722147
+Florida,FL,Total Renewable,Hydro,0.24664394
+Georgia,GA,Total Renewable,Hydro,0.428297969
+Hawaii,HI,Total Renewable,Hydro,0.053153514
+Iowa,IA,Total Renewable,Hydro,0.113259446
+Idaho,ID,Total Renewable,Hydro,0.805179776
+Illinois,IL,Total Renewable,Hydro,-0.170942676
+Indiana,IN,Total Renewable,Hydro,-0.682757942
+Kansas,KS,Total Renewable,Hydro,0.835316853
+Kentucky,KY,Total Renewable,Hydro,0.968054434
+Louisiana,LA,Total Renewable,Hydro,0.517269042
+Massachusetts,MA,Total Renewable,Hydro,0.226495992
+Maryland,MD,Total Renewable,Hydro,0.818633588
+Maine,ME,Total Renewable,Hydro,0.597693945
+Michigan,MI,Total Renewable,Hydro,0.070633187
+Minnesota,MN,Total Renewable,Hydro,-0.095152697
+Missouri,MO,Total Renewable,Hydro,0.401203156
+Montana,MT,Total Renewable,Hydro,0.844063085
+North Carolina,NC,Total Renewable,Hydro,0.61093118
+North Dakota,ND,Total Renewable,Hydro,0.501552918
+Nebraska,NE,Total Renewable,Hydro,0.278826513
+New Hampshire,NH,Total Renewable,Hydro,0.316827373
+New Jersey,NJ,Total Renewable,Hydro,-0.336372367
+New Mexico,NM,Total Renewable,Hydro,-0.465578388
+Nevada,NV,Total Renewable,Hydro,-0.057405145
+New York,NY,Total Renewable,Hydro,0.833467787
+Ohio,OH,Total Renewable,Hydro,0.172609136
+Oklahoma,OK,Total Renewable,Hydro,0.060383853
+Oregon,OR,Total Renewable,Hydro,0.718969696
+Pennsylvania,PA,Total Renewable,Hydro,0.611719364
+Rhode Island,RI,Total Renewable,Hydro,-0.500003412
+South Carolina,SC,Total Renewable,Hydro,0.793174539
+South Dakota,SD,Total Renewable,Hydro,0.694912627
+Tennessee,TN,Total Renewable,Hydro,0.992731772
+Texas,TX,Total Renewable,Hydro,-0.273390934
+US_TOTAL,US_TOTAL,Total Renewable,Hydro,0.075406444
+Utah,UT,Total Renewable,Hydro,0.277348295
+Virginia,VA,Total Renewable,Hydro,0.532615627
+Vermont,VT,Total Renewable,Hydro,0.653825386
+Washington,WA,Total Renewable,Hydro,0.941049112
+Wisconsin,WI,Total Renewable,Hydro,0.519541267
+West Virginia,WV,Total Renewable,Hydro,0.868903781
+Wyoming,WY,Total Renewable,Hydro,0.212894918
+Alaska,AK,Total Renewable,Natural Gas,-0.624962833
+Alabama,AL,Total Renewable,Natural Gas,0.035288566
+Arkansas,AR,Total Renewable,Natural Gas,0.10155716
+Arizona,AZ,Total Renewable,Natural Gas,0.371833835
+California,CA,Total Renewable,Natural Gas,-0.245566828
+Colorado,CO,Total Renewable,Natural Gas,0.716347013
+Connecticut,CT,Total Renewable,Natural Gas,-0.601968878
+District of Columbia,DC,Total Renewable,Natural Gas,0.689269669
+Delaware,DE,Total Renewable,Natural Gas,0.713390787
+Florida,FL,Total Renewable,Natural Gas,0.473040941
+Georgia,GA,Total Renewable,Natural Gas,0.58731752
+Iowa,IA,Total Renewable,Natural Gas,0.854479574
+Idaho,ID,Total Renewable,Natural Gas,0.321151862
+Illinois,IL,Total Renewable,Natural Gas,0.882436093
+Indiana,IN,Total Renewable,Natural Gas,0.948413731
+Kansas,KS,Total Renewable,Natural Gas,0.240064124
+Kentucky,KY,Total Renewable,Natural Gas,0.714521286
+Louisiana,LA,Total Renewable,Natural Gas,0.000448172
+Massachusetts,MA,Total Renewable,Natural Gas,-0.442419696
+Maryland,MD,Total Renewable,Natural Gas,0.680303623
+Maine,ME,Total Renewable,Natural Gas,-0.041434049
+Michigan,MI,Total Renewable,Natural Gas,0.885686681
+Minnesota,MN,Total Renewable,Natural Gas,0.930925425
+Missouri,MO,Total Renewable,Natural Gas,0.52510351
+Mississippi,MS,Total Renewable,Natural Gas,0.036030115
+Montana,MT,Total Renewable,Natural Gas,0.560038579
+North Carolina,NC,Total Renewable,Natural Gas,0.815349106
+North Dakota,ND,Total Renewable,Natural Gas,0.898701326
+Nebraska,NE,Total Renewable,Natural Gas,0.687593483
+New Hampshire,NH,Total Renewable,Natural Gas,0.188212182
+New Jersey,NJ,Total Renewable,Natural Gas,0.83163611
+New Mexico,NM,Total Renewable,Natural Gas,0.82336095
+Nevada,NV,Total Renewable,Natural Gas,0.649047604
+New York,NY,Total Renewable,Natural Gas,0.498563899
+Ohio,OH,Total Renewable,Natural Gas,0.967700363
+Oklahoma,OK,Total Renewable,Natural Gas,0.738508471
+Oregon,OR,Total Renewable,Natural Gas,-0.016110244
+Pennsylvania,PA,Total Renewable,Natural Gas,0.876447128
+Rhode Island,RI,Total Renewable,Natural Gas,0.499072198
+South Carolina,SC,Total Renewable,Natural Gas,0.538403968
+South Dakota,SD,Total Renewable,Natural Gas,0.731310268
+Tennessee,TN,Total Renewable,Natural Gas,0.292037953
+Texas,TX,Total Renewable,Natural Gas,0.798424511
+US_TOTAL,US_TOTAL,Total Renewable,Natural Gas,0.891295129
+Utah,UT,Total Renewable,Natural Gas,0.711555662
+Virginia,VA,Total Renewable,Natural Gas,0.910342732
+Vermont,VT,Total Renewable,Natural Gas,-0.430246192
+Washington,WA,Total Renewable,Natural Gas,-0.164093046
+Wisconsin,WI,Total Renewable,Natural Gas,0.829598707
+West Virginia,WV,Total Renewable,Natural Gas,0.764096856
+Wyoming,WY,Total Renewable,Natural Gas,0.785293477
+Alabama,AL,Total Renewable,Nuclear,0.048218607
+Arkansas,AR,Total Renewable,Nuclear,0.113566854
+Arizona,AZ,Total Renewable,Nuclear,0.602874394
+California,CA,Total Renewable,Nuclear,-0.587242792
+Connecticut,CT,Total Renewable,Nuclear,-0.532039347
+Florida,FL,Total Renewable,Nuclear,0.065780512
+Georgia,GA,Total Renewable,Nuclear,0.152097993
+Iowa,IA,Total Renewable,Nuclear,-0.192276529
+Illinois,IL,Total Renewable,Nuclear,0.588439042
+Kansas,KS,Total Renewable,Nuclear,0.159614579
+Louisiana,LA,Total Renewable,Nuclear,0.237591433
+Massachusetts,MA,Total Renewable,Nuclear,-0.656891546
+Maryland,MD,Total Renewable,Nuclear,0.233070543
+Maine,ME,Total Renewable,Nuclear,-0.106855174
+Michigan,MI,Total Renewable,Nuclear,0.467727233
+Minnesota,MN,Total Renewable,Nuclear,0.482158968
+Missouri,MO,Total Renewable,Nuclear,-0.544739559
+Mississippi,MS,Total Renewable,Nuclear,-0.325977701
+North Carolina,NC,Total Renewable,Nuclear,0.308637106
+Nebraska,NE,Total Renewable,Nuclear,-0.455967323
+New Hampshire,NH,Total Renewable,Nuclear,0.166536736
+New Jersey,NJ,Total Renewable,Nuclear,0.141150287
+New York,NY,Total Renewable,Nuclear,0.100515094
+Ohio,OH,Total Renewable,Nuclear,0.574179497
+Oregon,OR,Total Renewable,Nuclear,-0.070588914
+Pennsylvania,PA,Total Renewable,Nuclear,0.725774606
+South Carolina,SC,Total Renewable,Nuclear,0.121270428
+Tennessee,TN,Total Renewable,Nuclear,0.04967266
+Texas,TX,Total Renewable,Nuclear,0.417232395
+US_TOTAL,US_TOTAL,Total Renewable,Nuclear,0.446235998
+Virginia,VA,Total Renewable,Nuclear,0.620137433
+Vermont,VT,Total Renewable,Nuclear,-0.517674217
+Washington,WA,Total Renewable,Nuclear,-0.205293843
+Wisconsin,WI,Total Renewable,Nuclear,-0.232456993
+Alaska,AK,Total Renewable,Petroleum,0.187846037
+Alabama,AL,Total Renewable,Petroleum,-0.022045825
+Arkansas,AR,Total Renewable,Petroleum,-0.205168231
+Arizona,AZ,Total Renewable,Petroleum,-0.27578065
+California,CA,Total Renewable,Petroleum,-0.551812899
+Colorado,CO,Total Renewable,Petroleum,-0.497281556
+Connecticut,CT,Total Renewable,Petroleum,0.760791779
+District of Columbia,DC,Total Renewable,Petroleum,-0.538700002
+Delaware,DE,Total Renewable,Petroleum,-0.844412099
+Florida,FL,Total Renewable,Petroleum,-0.390261745
+Georgia,GA,Total Renewable,Petroleum,-0.459359502
+Hawaii,HI,Total Renewable,Petroleum,-0.923718618
+Iowa,IA,Total Renewable,Petroleum,0.268636306
+Idaho,ID,Total Renewable,Petroleum,0.128735084
+Illinois,IL,Total Renewable,Petroleum,-0.645587508
+Indiana,IN,Total Renewable,Petroleum,-0.062108618
+Kansas,KS,Total Renewable,Petroleum,-0.332967642
+Kentucky,KY,Total Renewable,Petroleum,-0.226965978
+Louisiana,LA,Total Renewable,Petroleum,0.417007753
+Massachusetts,MA,Total Renewable,Petroleum,0.008299967
+Maryland,MD,Total Renewable,Petroleum,-0.446150891
+Maine,ME,Total Renewable,Petroleum,-0.55091354
+Michigan,MI,Total Renewable,Petroleum,0.330108389
+Minnesota,MN,Total Renewable,Petroleum,-0.874698155
+Missouri,MO,Total Renewable,Petroleum,-0.073976552
+Mississippi,MS,Total Renewable,Petroleum,-0.060305018
+Montana,MT,Total Renewable,Petroleum,0.304891933
+North Carolina,NC,Total Renewable,Petroleum,-0.43245148
+North Dakota,ND,Total Renewable,Petroleum,-0.506302696
+Nebraska,NE,Total Renewable,Petroleum,-0.132645773
+New Hampshire,NH,Total Renewable,Petroleum,-0.350354895
+New Jersey,NJ,Total Renewable,Petroleum,-0.573128578
+New Mexico,NM,Total Renewable,Petroleum,0.254837259
+Nevada,NV,Total Renewable,Petroleum,-0.297455586
+New York,NY,Total Renewable,Petroleum,-0.608846368
+Ohio,OH,Total Renewable,Petroleum,0.477510225
+Oklahoma,OK,Total Renewable,Petroleum,-0.420962774
+Oregon,OR,Total Renewable,Petroleum,-0.531136389
+Pennsylvania,PA,Total Renewable,Petroleum,-0.784426323
+Rhode Island,RI,Total Renewable,Petroleum,-0.420999386
+South Carolina,SC,Total Renewable,Petroleum,-0.24762832
+South Dakota,SD,Total Renewable,Petroleum,-0.194949999
+Tennessee,TN,Total Renewable,Petroleum,-0.196412454
+Texas,TX,Total Renewable,Petroleum,-0.835711423
+US_TOTAL,US_TOTAL,Total Renewable,Petroleum,-0.790222041
+Utah,UT,Total Renewable,Petroleum,-0.207781814
+Virginia,VA,Total Renewable,Petroleum,-0.476937042
+Vermont,VT,Total Renewable,Petroleum,-0.268064997
+Washington,WA,Total Renewable,Petroleum,-0.100656673
+Wisconsin,WI,Total Renewable,Petroleum,-0.560125667
+West Virginia,WV,Total Renewable,Petroleum,-0.772517011
+Wyoming,WY,Total Renewable,Petroleum,-0.095303654
+Alabama,AL,Total Renewable,Solar,0.413288759
+Arkansas,AR,Total Renewable,Solar,0.282241575
+Arizona,AZ,Total Renewable,Solar,0.834252619
+California,CA,Total Renewable,Solar,0.773551759
+Colorado,CO,Total Renewable,Solar,0.921980643
+Connecticut,CT,Total Renewable,Solar,-0.131503453
+District of Columbia,DC,Total Renewable,Solar,0.734972784
+Delaware,DE,Total Renewable,Solar,0.686247006
+Florida,FL,Total Renewable,Solar,0.950052678
+Georgia,GA,Total Renewable,Solar,0.895926092
+Hawaii,HI,Total Renewable,Solar,0.720024518
+Iowa,IA,Total Renewable,Solar,0.565184569
+Idaho,ID,Total Renewable,Solar,0.423294003
+Illinois,IL,Total Renewable,Solar,0.686681357
+Indiana,IN,Total Renewable,Solar,0.892948926
+Kansas,KS,Total Renewable,Solar,0.733585672
+Kentucky,KY,Total Renewable,Solar,0.729245308
+Louisiana,LA,Total Renewable,Solar,-0.197836912
+Massachusetts,MA,Total Renewable,Solar,0.665171401
+Maryland,MD,Total Renewable,Solar,0.666549154
+Maine,ME,Total Renewable,Solar,-0.125670679
+Michigan,MI,Total Renewable,Solar,0.733222683
+Minnesota,MN,Total Renewable,Solar,0.697713959
+Missouri,MO,Total Renewable,Solar,0.87390484
+Mississippi,MS,Total Renewable,Solar,0.361136429
+Montana,MT,Total Renewable,Solar,0.424731388
+North Carolina,NC,Total Renewable,Solar,0.940754917
+Nebraska,NE,Total Renewable,Solar,0.916644567
+New Hampshire,NH,Total Renewable,Solar,-0.113357682
+New Jersey,NJ,Total Renewable,Solar,0.894592598
+New Mexico,NM,Total Renewable,Solar,0.966481389
+Nevada,NV,Total Renewable,Solar,0.973049868
+New York,NY,Total Renewable,Solar,0.648249206
+Ohio,OH,Total Renewable,Solar,0.790744229
+Oklahoma,OK,Total Renewable,Solar,0.898944492
+Oregon,OR,Total Renewable,Solar,0.13575485
+Pennsylvania,PA,Total Renewable,Solar,0.753259339
+Rhode Island,RI,Total Renewable,Solar,0.853412838
+South Carolina,SC,Total Renewable,Solar,0.68937029
+South Dakota,SD,Total Renewable,Solar,0.700973569
+Tennessee,TN,Total Renewable,Solar,0.387771738
+Texas,TX,Total Renewable,Solar,0.812791872
+US_TOTAL,US_TOTAL,Total Renewable,Solar,0.930138513
+Utah,UT,Total Renewable,Solar,0.946041471
+Virginia,VA,Total Renewable,Solar,0.80925837
+Vermont,VT,Total Renewable,Solar,0.677950848
+Washington,WA,Total Renewable,Solar,-0.045840498
+Wisconsin,WI,Total Renewable,Solar,0.328366496
+Wyoming,WY,Total Renewable,Solar,0.596510665
+Alaska,AK,Total Renewable,Wind,0.803973281
+Arizona,AZ,Total Renewable,Wind,0.755044799
+California,CA,Total Renewable,Wind,0.635466337
+Colorado,CO,Total Renewable,Wind,0.997982653
+Connecticut,CT,Total Renewable,Wind,-0.217641247
+Delaware,DE,Total Renewable,Wind,0.808108165
+Hawaii,HI,Total Renewable,Wind,0.821634369
+Iowa,IA,Total Renewable,Wind,0.999962184
+Idaho,ID,Total Renewable,Wind,0.521060533
+Illinois,IL,Total Renewable,Wind,0.999459833
+Indiana,IN,Total Renewable,Wind,0.999468266
+Kansas,KS,Total Renewable,Wind,0.999998422
+Massachusetts,MA,Total Renewable,Wind,0.412783024
+Maryland,MD,Total Renewable,Wind,0.654080626
+Maine,ME,Total Renewable,Wind,0.361747425
+Michigan,MI,Total Renewable,Wind,0.993833934
+Minnesota,MN,Total Renewable,Wind,0.997186301
+Missouri,MO,Total Renewable,Wind,0.92671612
+Montana,MT,Total Renewable,Wind,0.568818703
+North Carolina,NC,Total Renewable,Wind,0.904746547
+North Dakota,ND,Total Renewable,Wind,0.993690447
+Nebraska,NE,Total Renewable,Wind,0.992343457
+New Hampshire,NH,Total Renewable,Wind,0.601033289
+New Jersey,NJ,Total Renewable,Wind,0.600351902
+New Mexico,NM,Total Renewable,Wind,0.998548245
+Nevada,NV,Total Renewable,Wind,0.920190872
+New York,NY,Total Renewable,Wind,0.752141236
+Ohio,OH,Total Renewable,Wind,0.982849344
+Oklahoma,OK,Total Renewable,Wind,0.997167398
+Oregon,OR,Total Renewable,Wind,0.387436952
+Pennsylvania,PA,Total Renewable,Wind,0.957170187
+Rhode Island,RI,Total Renewable,Wind,0.926953416
+South Dakota,SD,Total Renewable,Wind,0.841060997
+Tennessee,TN,Total Renewable,Wind,-0.116383314
+Texas,TX,Total Renewable,Wind,0.998122481
+US_TOTAL,US_TOTAL,Total Renewable,Wind,0.972947874
+Utah,UT,Total Renewable,Wind,0.864004499
+Virginia,VA,Total Renewable,Wind,0.561824597
+Vermont,VT,Total Renewable,Wind,0.770366789
+Washington,WA,Total Renewable,Wind,0.258935761
+Wisconsin,WI,Total Renewable,Wind,0.948642558
+West Virginia,WV,Total Renewable,Wind,0.985487988
+Wyoming,WY,Total Renewable,Wind,0.995832288
