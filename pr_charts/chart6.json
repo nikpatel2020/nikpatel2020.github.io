@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Past and projected jobs by energy sector in the USA",
+      "subtitle": "Source: E2, Net-Zero America",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width":400,
+    "height":400,
+  
+    
+    "data": {"url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/us_jobs_past_predicted.csv"},
+    "transform": [{"calculate": "datum.Jobs/1000", "as": "Thousands"}],
+    "layer": [
+      {"mark":{"type": "line", "point":true} ,"encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "Thousands", "type": "quantitative", "title":"Jobs (thousands)"},
+      "color": {"field": "Source", "type": "nominal"},
+      "tooltip": [{"field": "Jobs", "title": "Jobs"},{"field": "Source", "title": "Source"},{"field": "Year", "title": "Year","type":"temporal", "format":"%Y"}]
+      }},
+      {
+      
+      "mark": { "type": "rule", "color": "grey", "size": 2, "strokeDash": [5,5] },
+      "encoding": {
+        "x": { "field": "date", "type": "temporal","title": "Year"}
+      },
+      "data": {
+        "values": [
+          {"date": "01 Jan 2022 14:15:00"}
+        ],
+        "format": {
+          "parse": {"date": "utc:'%d %b %Y %H:%M:%S'"}
+        }
+      }
+    }
+  
+  
+  
+      
+      ]
+  }

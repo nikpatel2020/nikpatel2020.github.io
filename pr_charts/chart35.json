@@ -1,0 +1,141 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {
+      "text": ["Electricity Generation Mix for US States (%)","Select a State before selecting continuing"],
+      "subtitle": ["Source: EIA"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "vconcat": [
+      {"selection": {
+          "State": {
+            "type": "single",
+            "fields": ["Name"],
+            "bind": {
+              "name": "Select a State",
+              "input": "select",
+              "options": [
+                null,
+                "US_TOTAL",
+                "Alaska",
+                "Alabama",
+                "Arkansas",
+                "Arizona",
+                "California",
+                "Colorado",
+                "Connecticut",
+                "District of Columbia",
+                "Delaware",
+                "Florida",
+                "Georgia",
+                "Hawaii",
+                "Iowa",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Massachusetts",
+                "Maryland",
+                "Maine",
+                "Michigan",
+                "Minnesota",
+                "Missouri",
+                "Mississippi",
+                "Montana",
+                "North Carolina",
+                "North Dakota",
+                "Nebraska",
+                "New Hampshire",
+                "New Jersey",
+                "New Mexico",
+                "Nevada",
+                "New York",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
+                "Tennessee",
+                "Texas",
+                "Utah",
+                "Virginia",
+                "Vermont",
+                "Washington",
+                "Wisconsin",
+                "West Virginia",
+                "Wyoming"
+              ]
+            }},
+            "Source": {
+            "type": "single",
+            "fields": ["Source"],
+            "bind": {
+              "name": "Select a Source",
+              "input": "select",
+              "options": [
+                null,
+                "Biomass",
+                "Coal",
+                "Geothermal",
+                "Hydro",
+                "Natural Gas",
+                "Nuclear",
+                "Petroleum",
+                "Solar",
+                "Wind",
+                "Total Renewable"
+              ]
+            }}},
+        "mark": "line",
+        "data": {"url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/energy_mix_clean.csv"},
+        "transform": [{"filter": {"selection": "State"}},{"filter": {"selection": "Source"}}],
+        "width":350,
+        "height":350,
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal"
+          },
+          "y": {
+            "field": "Percent",
+            "type": "quantitative"
+          },
+          "color": {"field": "Source", "type": "nominal"}
+        }
+      },
+      {
+        "mark": "bar",
+        "data": {"url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/corr_state_source_nom_mix_clean.csv"},
+        "transform": [{"filter": {"selection": "State"}}],
+        "width":350,
+        "height":150,
+            "title": {
+      "text": ["Correlation between total renenewable generation", "and generation from individual sources"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+        "encoding": {
+          "x": {
+            "field": "Source",
+            "type": "nominal"
+            
+          },
+          "y": {
+            "field": "Correlation",
+            "type": "quantitative"
+          },
+          "color": {"field": "Source", "type": "nominal"}
+        }
+      }
+    ]
+  }

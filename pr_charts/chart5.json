@@ -1,0 +1,99 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": [
+        "Growth of clean jobs and renewable generation capacity",
+        "for US States 2020-2021"
+      ],
+      "subtitle": ["Source:E2, EIA","Size increases with total number of jobs"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "width": 400,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/clean_jobs_state_2021.csv"
+    },
+    "layer": [
+      
+      {
+        "selection": {
+          "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
+          "grid": {"type": "interval"}
+        },
+        "mark": {"type": "circle","color":"limegreen", "opacity": 0.7},
+        "encoding": {
+          "x": {
+            "field": "Growth in renewable capacity",
+            "type": "quantitative",
+            "title" : "Growth in Renewable Capcity (%)"
+            
+            
+          },
+          "y": {
+            "field": "Growth",
+            "type": "quantitative",
+            "title":"Growth in Clean Jobs (%)"
+          },
+          "color":{
+            "condition": {
+              "selection": "paintbrush",
+              "value":"#0080FE"
+      
+              
+            }
+          },
+          "size": {"field": "Total Clean Energy Jobs", "type": "quantitative", "legend": null},
+          
+          "tooltip":[{"field": "Name", "title": "State"},{"field": "Total Clean Energy Jobs", "title": "Number of Jobs"},{"field": "Percentage of Statewide Workforce", "title": "Percentage of Statewide Workforce"}, {"field": "Percentage total renewables", "title": "% renewables", "format":".1f"}]
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "firebrick"
+        },
+        "transform": [
+          {
+            "regression": "Growth",
+            "on": "Growth in renewable capacity",
+            "extent": [-15,55]
+            
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Growth in renewable capacity",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Growth",
+            "type": "quantitative"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "Growth",
+            "on": "Growth in renewable capacity",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "firebrick",
+          "x": "width",
+          "align": "right",
+          "y": -5
+        },
+        "encoding": {
+          "text": {"type": "nominal", "field": "R2"}
+        }
+      }
+    ]
+  }

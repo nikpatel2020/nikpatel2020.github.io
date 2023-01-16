@@ -1,0 +1,95 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "",
+    "title": {
+      "text": ["Levelized cost of Energy and capacity by technology ","Select a region to start"],
+      "subtitle": ["Source: Our World in Data, EIA"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "height": 400,
+    "width": 400,
+    "transform": [{"filter":{"selection":"Entity"}}],
+    "layer": [
+      
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/LCOE_clean.csv"
+        },
+        "mark": {"type": "line", "point": false},
+        "transform": [{"filter":{"selection":"Entity"}}],
+        "selection": {
+        "Entity": {
+          "type": "single",
+          "fields": ["Entity"],
+          "bind": {
+            "input": "select",
+            "options": [null,"United States", "World"],
+            "name": "Select a region"
+          }
+        }
+      },
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "title": null,
+            "axis": {"grid": false}
+          },
+          "y": {
+            "field": "LCOE($/kWh)",
+            "type": "quantitative",
+            "title": "LCOE($/kWh)",
+            "axis": {"grid": true}
+          },
+          "color": {"field": "LCOE"},
+          "tooltip": [
+            {"field": "Date", "type": "temporal", "title": "Date"},
+            {
+              "field": "Regular Pay Growth %",
+              "type": "quantitative",
+              "format": ".2f"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/generation_for_LCOE.csv"
+        },
+        "mark": {
+          "type": "line",
+          "strokeDash": [6, 2],
+          "point": false,
+          "opacity":0.7
+          
+        },
+        "transform": [{"filter":{"selection":"Entity"}}],
+        "encoding": {
+          "y": {
+            "field": "Generation Capacity (GW)",
+            "type": "quantitative",
+            "scale": {"domain": [0,150]},
+            "title": "Capacity (GW)"
+            
+          },
+          "x": {
+            "field": "Year",
+            "type": "temporal",
+            "title": "",
+            "axis": {"grid": false}
+            
+          },
+          "color": {"field": "Capacity"},
+          "tooltip": [
+            {"field": "Date", "type": "temporal", "title": "Date"},
+            {"field": "Pub-Priv Difference Absolute %", "type": "quantitative"}
+          ]
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  }

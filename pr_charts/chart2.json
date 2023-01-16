@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": [
+        "USA Net Summer Electricity Generation Capacity by Source"
+      ],
+      "subtitle": ["Source: EIA"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+  
+    "data": {"url": "https://api.eia.gov/v2/total-energy/data/?api_key=6fMCHZR3jsRUapS37P5h2TztGG82yQW1pxnBQ00l&frequency=monthly&data[0]=value&facets[msn][]=CLGBPUS&facets[msn][]=FFGBPUS&facets[msn][]=HVGBPUS&facets[msn][]=NUGBPUS&facets[msn][]=NGGBPUS&facets[msn][]=REGBPUS&facets[msn][]=SOGBPUS&facets[msn][]=WYGBPUS&start=2007-12&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=5000", "format": {"type": "json", "property": "response.data"}},
+    "transform": [
+      {"calculate": "{'Coal, Net Summer Capacity  in Million Kilowatts': 'Coal', 'Wind, Net Summer Capacity in Million Kilowatts': 'Wind', 'Solar, Net Summer Capacity  in Million Kilowatts': 'Solar','Renewable Energy, Net Summer Capacity  in Million Kilowatts': 'Total Renewable', 'Natural Gas, Net Summer Capacity  in Million Kilowatts': 'Natural Gas','Conventional Hydroelectric Power, Net Summer Capacity in Million Kilowatts': 'Hydroelectric','Fossil Fuels, Net Summer Capacity in Million Kilowatts': 'Total Fossil Fuel','Nuclear Generating Units, Net Summer Capacity, End of Period in Million Kilowatts': 'Nuclear' }[datum.seriesDescription]", "as": "Source"},
+  {"filter": {"selection": "Source"}}
+    ],
+  
+    "width":400,
+    "height":400,
+    "mark": "line",
+    "selection": {
+      "Source": {
+        "type": "single",
+        "fields": ["Source"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Coal",
+            "Wind",
+            "Solar",
+            "Total Renewable",
+            "Nuclear",
+            "Natural Gas",
+            "Hydroelectric",
+            "Total Fossil Fuel"
+          ],
+          "name": "Source"
+        }
+      }
+    },
+    "encoding": {
+      "x": {"field": "period", "type": "temporal", "title":null},
+      "y": {"field": "value", "type": "quantitative", "title":"Million Kilowatts"},
+      "color": {"field": "Source", "type": "nominal"},
+      "tooltip":[{"field":"Source", "type": "nominal", "title":"Source"},{"field":"value", "type": "nominal", "title":"Value"},{"field":"period", "type": "temporal", "title":"Date","format":"%b %Y"}]
+    }
+    
+  }

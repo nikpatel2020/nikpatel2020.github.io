@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "view": {"stroke": "transparent"},
+"title": {
+          "text": ["Renewables share of electricty generation (%)", "for US States from 1990 to 2021"],
+          "subtitle": ["Source: EIA"],
+          "subtitleFontStyle": "italic",
+          "subtitleFontSize": 10,
+          "anchor": "start",
+          "color": "#010001",
+          "subtitleColor": "#000000"},
+  "params": [
+    {
+      "name": "yearSelector",
+      "value": 1990,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2021,
+        "step": 1,
+        "name": "Select a Year:"
+      }
+    }
+  ],
+  "projection": {"type": "albersUsa"},
+  "mark": {"type": "geoshape", "stroke": "grey", "strokeWidth": 0.2},
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/generation_state_source_perc_wideform.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"calculate": "toNumber(yearSelector)", "as": "yearS"},
+    {"filter": "datum.yearS == datum.Year"},
+
+    {
+      "lookup": "Name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/geoUSAstates.json",
+          "format": {"property": "features"}
+        },
+        "key": "properties.NAME",
+        "fields": ["properties", "type", "geometry"]
+      }
+    }
+  ],
+  "encoding": {
+    "color": {
+      "field": "Percentage Total Renewable",
+      "legend": {"title": null, "orient": "right", "direction": "vertical"},
+      "type": "quantitative",
+      "scale": ""
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "State"},
+      {"field": "Percentage Total Renewable", "title": "Percentage", "format":".1f"}
+    ]
+  }
+}

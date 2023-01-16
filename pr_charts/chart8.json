@@ -1,0 +1,178 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": ["VRE share and wholesale prices","Select a market to start"],
+      "subtitle": ["Source: iea"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "vconcat": [
+  {
+    
+    "height": 300,
+    "width": 400,
+    "transform": [{"filter": {"selection": "Entity"}}],
+    
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/VRE.csv"
+        },
+        
+        "mark": {"type": "line", "point": false},
+        "transform": [{"filter": {"selection": "Entity"}}],
+        "selection": {
+          "Entity": {
+            "type": "single",
+            "fields": ["Entity"],
+            "bind": {
+              "input": "select",
+              "options": [null, "USA_ERCOT", "USA_CASIO"],
+              "name": "Select a market"
+            }
+          }
+        },
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal",
+            "title": null,
+            "axis": {"grid": false}
+          },
+          "y": {
+            "field": "Share of VRE",
+            "type": "quantitative",
+            "title": "Monthly share of VRE(%)",
+            "axis": {"grid": true},
+            "scale": {"domain": [6, 30]}
+            
+          },
+          "color":{"field":"Measure","scale":{"range":["#d3d3d3","#009642","#0047AB"]}},
+          "tooltip": [
+            {"field": "Date", "type": "temporal", "title": "Date"},
+            {
+              "field": "Regular Pay Growth %",
+              "type": "quantitative",
+              "format": ".2f"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/wholesaleprice_demand_longform.csv"
+        },
+        "mark": {
+          "type": "line",
+          "point": false,
+          "opacity": 1
+        },
+        
+        "transform": [{"filter": {"selection": "Entity"}}],
+        "encoding": {
+          "y": {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Price($/MWh), Demand(TWh)"
+          },
+          "x": {
+            "field": "Date",
+            "type": "temporal",
+            "title": "",
+            "axis": {"grid": false}
+          },
+          "color": {"field": "Measure","scale":{"range":["#d3d3d3","#009642"]}, "legend":{"orient":"top","offset":0}}
+          
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  },
+  {
+    "data": {
+      "url": "https://raw.githubusercontent.com/nikpatel2020/nikpatel2020.github.io/main/pr_data/VRE_wholesaleprice_wideform.csv"
+    },
+    "height": 300,
+    "width": 300,
+    "transform": [{"filter": {"selection": "Entity"}}],
+    "layer": [
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "color":"limegreen"
+        },
+        "selection": {
+          "Entity": {
+            "type": "single",
+            "fields": ["Entity"],
+            "bind": {
+              "input": "select",
+              "options": [null, "USA_ERCOT", "USA_CASIO"],
+              "name": "Select an entity"
+            }
+          }
+        },
+        "encoding": {
+          "x": {
+            "field": "Share of VRE",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Wholesale Price",
+            "type": "quantitative"
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "firebrick"
+        },
+        
+        "transform": [
+          {
+            "regression": "Wholesale Price",
+            "on": "Share of VRE",
+            "extent": [5,30]
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Share of VRE",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Wholesale Price",
+            "type": "quantitative"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "Wholesale Price",
+            "on": "Share of VRE",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "firebrick",
+          "x": "width",
+          "align": "right",
+          "y": -5
+        },
+        "encoding": {
+          "text": {"type": "nominal", "field": "R2"}
+        }
+      }
+    ]
+  }
+  
+    ]
+  }
