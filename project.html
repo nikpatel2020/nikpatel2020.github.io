@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+  
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+<link rel="stylesheet" href="project.css">
+
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  </style>
+ 
+<!-- Title -->   
+<title>Project NP DS 2022</title>
+</head>
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+  <div class="wrap">
+  <a class="button" href="https://nikpatel2020.github.io/portfolio.html">Portfolio</a>
+  <a class="button" href="https://github.com/nikpatel2020/nikpatel2020.github.io">Github</a>
+  </div>
+<h1>Nik Patel Data Science 2022</h1>
+<h1>Project</h1>
+<h2>The effects of increasign genertion of Renewable Electricity, Insights from the USA</h2>
+<p>Rapid increases in renewable electricity generation are vital to plans of transitioning to net zero transition to net zero pledged by several government around the world. 
+  The motivation of this project is to provide insight into a few commonly stated benefits of increasing renewable energy generation.</p>
+
+
+<!--Chart2-->
+<p>The USA is the second largest investor in renewable energy. This chart shows the net summer capacity 
+  (maximum output equipment can supply) by technology in the USA over time. There have been great increases 
+  in renewable generation capacity since 2008. Select a series to see the growth of individual sources. This chart uses the U.S. Energy Information Administration's <a class="textLink" href="https://www.eia.gov/opendata/">API</a>. </p>
+<div class="container">
+    <div class="chart" id="chart2">
+    <script>
+      var myChart2 = "pr_charts/chart2.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+    </div>
+</div>
+
+<!--Chart3-->
+<p>While the USA only generates around 13% of its electricity from renewable sources, 
+  there is great variation in the renewables share of generation (RSG) between states. 
+  The chart below shows the RSG over time. Generation data is from the <a class="textLink" href="https://www.eia.gov/electricity/data/state/">EIA</a>. 
+  I cleaned the data and converted it into percentages using <a class="textLink" href="https://colab.research.google.com/drive/1Qa7nwOKH9l_DITyoGaYsWXWjAJpdh_Zl?usp=sharing">Python</a>. </p>
+<div class="container">
+    <div class="chart" id="chart3">
+    <script>
+      var myChart3 = "pr_charts/chart3.json";
+      vegaEmbed('#chart3', myChart3);
+    </script>
+    </div>
+</div>
+ 
+
+<!--Chart35-->
+
+<p>The next chart shows further breakdowns of each states energy mix 
+  alongside the correlation between nominal generation from renewables and individual sources. 
+  Note that renewable energy generation is strongly negatively correlated with coal (highest emissions source) and positively correlated with natural gas emissions. </p>
+<div class="container">
+    <div class="chart" id="chart35">
+    <script>
+      var myChart35 = "pr_charts/chart35.json";
+      vegaEmbed('#chart35', myChart35);
+    </script>
+    </div>
+</div>
+<p>The visualisation only starts when a state is selected, this is a problem I occurred throughout the project. I used <a class="textLink" href="https://colab.research.google.com/drive/13M9SUnWiosjUXO271r1sNSlSup8X3UH2?usp=sharing">Python</a> to create the correlations. </p> 
+
+<!--Chart4-->
+<h3>Effects on Co2 Emissions</h3>
+<div class="container">
+    <div class="chart" id="chart4">
+    <script>
+      var myChart4 = "pr_charts/chart4.json";
+      vegaEmbed('#chart4', myChart4);
+    </script>
+    </div>
+</div>
+<p>When regressing RSG for all states across all years against Co2 per capita from energy we see a vague with a low R- Squared of 0.03, 
+  likely due to lifestyle differences between states. Stronger relationships are visible looking at individual states, 
+  particularly in states that have a large change in RSG for example Texas and Colorado which can be explained by large substitutions in coal usage (see previous chart). 
+  Most states show a negative but weak relationship. This may be due to increases in natural gas generation muting the effects of renewable generation. 
+  A more rigorous empirical strategy is needed. Emissions data for this chart is from the <a class="textLink" href="https://www.eia.gov/environment/emissions/state/">EIA</a> 
+  and merged with percentage data in <a class="textLink" href="https://colab.research.google.com/drive/1xeCOduQR3zkJ4xMPEwdMFCN1DCirN_KY?usp=sharing">Python</a>.</p> 
+
+<!--Chart5-->
+<h3>Effects on Employment</h3>
+<p>To investigate the effect on jobs I attempted to use a scatter chart comparing the growth rate of clean energy jobs against the growth of renewable generation capacity from 2020 to 2021. </p>
+<div class="container">
+    <div class="chart" id="chart5">
+    <script>
+      var myChart5 = "pr_charts/chart5.json";
+      vegaEmbed('#chart5', myChart5);
+    </script>
+    </div>
+</div>
+<p>There is a vague upwards trend with low R-Squared. Renewable energy projects take 10-12 months to construct so renewable capacity will lag any increases in employment. 
+  I regressed 2020-2021 growth rate on capacity to the 2019-2020 growth rate of clean energy jobs but obtained weaker results likely due to disruptions in energy construction 
+  projects during the Pandemic. 
+  Longer term analysis as more data becomes available may provide stronger results. 
+  Obtaining state level data on employment was difficult. I scraped the data from pdf reports from <a class="textLink" href="https://e2.org/reports/clean-jobs-america-2022/">E2.org</a> using tabula in <a class="textLink" href="https://colab.research.google.com/drive/1HdKazjhTE_QjfrH04N12o4OLhR8asr17?usp=sharing">Python</a>. </p> 
+
+<!--Chart6-->
+
+<div class="container">
+    <div class="chart" id="chart6">
+    <script>
+      var myChart6 = "pr_charts/chart6.json";
+      vegaEmbed('#chart6', myChart6);
+    </script>
+    </div>
+</div>
+<p>This chart shows projections of jobs on a national level to meet net zero target by 2050. 
+  Projection data is from <a class="textLink" href="https://netzeroamerica.princeton.edu/?explorer=pathway&state=national&table=e-positive&limit=200">Net-Zero America</a> and assumes an approach 
+  to decarbonization of High Biomass (E-B+), and historical data (2017-2020) was scraped from an <a class="textLink" href="https://e2.org/reports/clean-jobs-america-2022/">E2.org</a> report in <a class="textLink" href="https://colab.research.google.com/drive/1o6Fvz6sEWwwd9DbF7Lu_PsD42IHBAkeG?usp=sharing">Python</a>. A rapid growth in the number of jobs for all renewable sectors is needed to meet net zero by 2050 pledged in 2021. Note that jobs lost from reduction in use of fossil fuels will be significantly outweighed by the gains in renewable sectors. </p> 
+
+
+
+<!--Chart7-->
+<h3>Effects on Price</h3>
+<p>The levelized cost of energy (LCOE) is the net present cost of electricity given the expected lifetime generation of the technology. </p>
+<div class="container">
+    <div class="chart" id="chart7">
+    <script>
+      var myChart7 = "pr_charts/chart7.json";
+      vegaEmbed('#chart7', myChart7);
+    </script>
+    </div>
+</div>
+<p>As renewable generation has increased the LCOE for different sources has increased. 
+  It is hard to untangle ‘learning effects’ and economics of scale driving down prices as renewable capacity increases from renewable capacity investment increasing due to prices falling. 
+  Further studies can external variation in prices. USA data was only available for solar and wind from <a class="textLink" href="https://ourworldindata.org/grapher/levelized-cost-of-energy">Our World in Data</a> and was cleaned in <a class="textLink" href="https://colab.research.google.com/drive/1ZFOvAIgkK7_f0H4CRhrjGrHDHE5zSC37?usp=sharing">Python</a>. </p> 
+
+<!--Chart8-->
+
+<p>The top view of final chart tracks the monthly wholesale price of electricity along with the share of variable renewable electricity (solar and wind) in two American markets, 
+  CAISO in California and ERCOT in Texas. </p>
+<div class="container">
+    <div class="chart" id="chart8">
+    <script>
+      var myChart8 = "pr_charts/chart8.json";
+      vegaEmbed('#chart8', myChart8);
+    </script>
+    </div>
+</div>
+<p>The wholesale price falls when the share of VRE increases. Regression of the two measures show a negative relationship, 
+  providing evidence of the ability of renewables to impact the price of electricity. Data was scraped from <a class="textLink" href="https://www.iea.org/data-and-statistics/charts/average-monthly-share-of-vre-based-generation-and-baseload-wholesale-electricity-prices-in-caiso-united-states">iea.org</a> using BeautifulSoup in <a class="textLink" href="https://colab.research.google.com/drive/1eedoA3W8uqZfQ16lyC4SH9xNs8jkRjpu?usp=sharing">Python</a>. </p> 
+
+
+<h3>Conclusions</h3>
+<p>The above analysis provides brief insights into the positive effects of higher renewable energy usage. It is a given that Co2 emissions from energy generation will decrease with a greater renewable share and more people jobs will be needed to install this infrastructure. Further investigation can be done into the effect on price of electricity. I attempted to see if those states with higher RSG were less prone to shocks in fossil fuel pricing but could not find appropriate data, this analysis can be done in other countries/ continents. </p>
+
+
+
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>

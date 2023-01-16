@@ -1,0 +1,137 @@
+body{
+    background-color:rgb(43, 42, 42);
+    margin: auto;
+    overflow: scroll;
+    max-width:600px;
+    text-align:center; 
+    vertical-align:middle;
+
+}
+
+.text-center {
+    text-align: center;
+    
+}
+
+footer {
+    height: 100px;
+}
+
+
+h1{ 
+  color: #858585;
+  font-family:'Roboto', sans-serif;
+}
+h2{
+    color: #1fa135;
+    font-family: 'Roboto', sans-serif;
+  
+}
+h3{
+    color: #1fa135;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+p{
+  color: #edf5e1;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
+}
+
+/* Button for home page */
+.button {
+  background-color: white;
+  border: 1px solid #1fa135;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  padding: 15px 15px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+    
+}
+.button:hover {
+background-color: #706763;}
+
+/* Charts */
+
+.chart{
+    width: auto;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    border: #908e8e solid 5px;
+    border-radius: 10px;
+    font-family: Inter,sans-serif;
+    font-size: 10pxp;
+}
+
+.chart5{
+    width: auto;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    border: #908e8e solid 5px;
+    border-radius: 10px;
+    font-family: Inter,sans-serif;
+    font-size: 10pxp;
+  
+}
+
+.chart:hover {
+    
+      transform: scale(1.02, 1.02);
+      transition: 0.5s;
+      
+    }
+/* Adding containers to my charts */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: left;
+}
+.box {
+		
+    box-sizing: border-box;
+    background-color: none;
+    height: auto;
+	     width: auto;
+	            border-radius: 10px;
+	            padding: 10px;
+	            text-align: center;
+	            display: inline-block;
+	            margin: 10px;
+	            max-width: 450px;
+	              
+	          }
+
+
+/* Hyperlinks */
+a:link {
+  color: #1fa135;
+  background-color: transparent;
+
+}
+a:visited {
+  color: #1fa135;
+  background-color: transparent;
+
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+
+}
+a:active {
+  color: #379683;
+  background-color: transparent;
+
+}
